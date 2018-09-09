@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+
+    background-image: url()
+}
+
+.div1 {
+
+    float: left;
+}
+
+.logo {
+
+    height: 25px;
+    width: auto;
+    margin-left: 10%;
+    margin-top: 15px;
+    position: relative;
+}
+label {
+    display: inline-block;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 18px;
+
+}
+
+.main-nav{
+
+    float: right;
+    list-style: none;
+    margin-right: 45%;
+    margin-top: 7px;
+    position: relative;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 15px;
+    list-style: none;
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.btnlogin {
+    
+    /* float: right; */
+    
+    /* margin-top: 15px; */
+    /* margin-right: 10px; */
+    padding: 5px;
+    margin-left: 68%;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    color: blue;
+} 
+
+.btndemo {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    margin-left: 77%;
+    margin-top: 20px;
+    color: blue;
+
+}
+
+.btnlogin:hover , .btndemo:hover{
+
+    background-color: orange;
+}
+
+
+
+
+.maintxtonbgimage {
+
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+.h6setting {
+
+        color: blue;
+        text-transform: uppercase;
+        font-size: 15px;
+}
+.h1setting {
+    color: blue;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.parasetting {
+    color:rgba(0, 0, 0, 0.596);
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.inputsetting {
+    margin-top: 35px;
+    padding: 10px;
+    width: 220px;
+    /* border-color: black; */
+    /* border: 0px solid black; */
+    /* outline-style: solid; */
+    /* outline-color: rgba(0, 0, 0, 0.308); */
+    outline: 1px solid rgba(0, 0, 0, 0.267);
+    
+    
+
+}
+
+.buttonsetting{
+     height: 38px;
+     width: 100px;
+     background-color: orange;
+     color: white;
+     /* outline-style: ; */
+}
+
+.imagesetting {
+    width: 200px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 20%;
+    transform: skewX(30deg);
+}
+/* .image2setting {
+    width: 200px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 20%;
+    transform: skewX(20deg);
+}
+ */
+
+
